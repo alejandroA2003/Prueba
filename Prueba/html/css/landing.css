@@ -1,0 +1,114 @@
+.barra {
+  background-color: rgba(0, 0, 0, 0.1); /* Color de fondo de la barra */
+  color: white; /* Color del texto */
+  padding: 10px; /* Espacio interno */
+  text-align: center; /* Centra el texto */
+  position: absolute;
+  top: 150px;
+  right: 0px;
+  width: 90%;
+  height: 100px;
+  border-color: #6d9afd;
+}
+.boton {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #618ff3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease; /* Transición suave para transformación, color de fondo y color de texto */
+  animation: cambio-color2 3s infinite alternate;
+  position: absolute;
+  right: 5%;
+  top: 30%;
+}
+
+@keyframes cambio-color2{
+    0%{
+      background-color: #eeeb3f;
+    }
+    50%{
+      background-color: #6d9afd;
+    }
+    100%{
+      background-color: blueviolet;
+    }
+}
+.boton:hover {
+  transform: translateY(-5px) scale(1.25); /* Mueve el botón hacia arriba y aumenta su escala */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave */
+  background-color: #4b71ee; /* Cambia el color de fondo */
+  color: #fff; /* Cambia el color del texto */
+}
+
+.cabaña1{
+  background-color: #ffffff;
+  width: 300px;
+  height: 200px;
+  border: 2px solid black;
+  overflow: scroll;
+  color: black;
+  font-family: sans-serif;
+  position: absolute;
+  top: 95%;
+  right: 70%;
+}
+.cabaña2{
+  background-color: #ffffff;
+  width: 300px;
+  height: 200px;
+  border: 2px solid black;
+  overflow: scroll;
+  color: black;
+  font-family: sans-serif;
+  position: absolute;
+  top: 95%;
+  right: 10%;
+}
+.cabaña3{
+  background-color: #ffffff;
+  width: 300px;
+  height: 200px;
+  border: 2px solid black;
+  overflow: scroll;
+  color: black;
+  font-family: sans-serif;
+  position: absolute;
+  top: 95%;
+  right: 40%;
+}
+.imagen1{
+  position: absolute;
+  top: 68%;
+  right: 70%;
+}
+.imagen2{
+  position: absolute;
+  top: 68%;
+  right: 10%;
+}
+.imagen3{
+  position: absolute;
+  top: 68%;
+  right: 40%;
+}
+#miImagen1{
+  width: 300px;
+  height: 250px;
+}
+#miImagen2{
+  width: 300px;
+  height: 250px;
+}
+#miImagen3{
+  width: 300px;
+  height: 250px;
+}
+
+.contacto{
+  position: absolute;
+  top: 120%;
+  right: 40%;
+}

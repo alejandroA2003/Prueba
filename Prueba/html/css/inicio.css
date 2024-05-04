@@ -1,0 +1,20 @@
+body {
+    background-image: url("../imagenes/ia1.jpg"); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el cuerpo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-position: center; /* Centra la imagen de fondo */
+    color: #fff; /* Establece el color del texto */
+    font-family: Arial, sans-serif; /* Establece la fuente del texto */
+    padding: 20px; /* Añade un relleno alrededor del contenido */
+    display: flex; /* Usa el modelo de caja flexible para alinear elementos verticalmente */
+    justify-content: flex-end; /* Alinea el contenido a la derecha */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 100vh; /* Establece la altura del cuerpo para ocupar el 100% del viewport */
+    width: 100%;
+}
+.video{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+
+}

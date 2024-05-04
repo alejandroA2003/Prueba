@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../css/registro.css"
+</head>
+<body>
+    <center>
+    <div class="contenedor">
+        <div class="registro-formulario">
+            <h1 class="titulo">¡Regístrate Ahora!</h1>
+            <form>
+                <div class="campo">
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                </div>
+
+                <div class="campo">
+                    <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+                </div>
+
+                <div class="campo">
+                    <select id="sexo" name="sexo" required>
+                        <option value="" disabled selected>Selecciona tu sexo</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino">Femenino</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <input type="email" id="correo" name="correo" placeholder="Correo electrónico" required>
+                </div>
+
+                <div class="campo">
+                    <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña" required>
+                </div>
+
+                <button type="submit">Registrarse</button>
+            </form>
+        </div>
+    </div>
+    </center>
+</body>
+</html>
